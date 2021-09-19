@@ -56,3 +56,4 @@
 (package! info-colors)
 (package! doct
   :recipe (:host github :repo "progfolio/doct"))
+(package! python-black)
