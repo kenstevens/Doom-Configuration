@@ -25,8 +25,9 @@
       password-cache-expiry nil                   ; I can trust my computers ... can't I?
       scroll-margin 2)
 
-(display-time-mode 1)                           ;enable time in the mode line
-                                        ;
+(setq yas-snippet-dirs (append yas-snippet-dirs '("~/.doom.d/snippets")))
+
+(display-time-mode 1)                           ;enable time in the mode lin
 ;;(setq doom-theme 'spacemacs-dark)
 (setq doom-theme 'modus-operandi)
 
