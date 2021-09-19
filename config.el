@@ -27,7 +27,7 @@
 
 (setq yas-snippet-dirs (append yas-snippet-dirs '("~/.doom.d/snippets")))
 
-(display-time-mode 1)                           ;enable time in the mode lin
+(display-time-mode 1)                           ;enable time in the mode line
 ;;(setq doom-theme 'spacemacs-dark)
 (setq doom-theme 'modus-operandi)
 
